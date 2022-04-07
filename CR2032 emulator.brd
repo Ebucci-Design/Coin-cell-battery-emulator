@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -187,7 +187,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTkwOTA2MjEzMTk3ODU2" f3durn="urn:adsk.wipprod:dm.lineage:Xbatf6oeTpqPrVNiO6yIyA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="31a8649d-6013-4b3f-8fdb-d08e69e8f611" lastsyncedrevisionid="31a8649d-6013-4b3f-8fdb-d08e69e8f611" lastboardhashguid="3ea0b9cb-6f79-6d17-c5f0-c3754e4f6761" lastpushedtime="2022-04-07T12:02:38Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTkwOTA2MjEzMTk3ODU2" f3durn="urn:adsk.wipprod:dm.lineage:Xbatf6oeTpqPrVNiO6yIyA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="c4f2cb87-3044-4808-b78f-b33b1b837a8f" lastsyncedrevisionid="c4f2cb87-3044-4808-b78f-b33b1b837a8f" lastboardhashguid="fc71f73d-e6fa-c149-572e-4ff18506542e" lastpushedtime="2022-04-07T12:28:15Z" linktopcb3d="true"/>
 <plain>
 <circle x="0" y="0" radius="10" width="0.01" layer="51"/>
 <circle x="0" y="18" radius="10" width="0.01" layer="51"/>
@@ -239,6 +239,7 @@
 <text x="0" y="0" size="5" layer="41" font="vector" ratio="10" rot="R180" align="center">+</text>
 <text x="0" y="18" size="5" layer="41" font="vector" ratio="10" rot="R180" align="center">+</text>
 <wire x1="-3" y1="9.4" x2="3" y2="9.4" width="0.2" layer="41"/>
+<text x="0" y="-25.2" size="1.8" layer="22" font="vector" ratio="12" rot="MR0" align="center">EBUCCI</text>
 </plain>
 <libraries>
 <library name="Connectors" urn="urn:adsk.eagle:library:3750510">
@@ -885,8 +886,8 @@ package type OT</description>
 <via x="-4.7" y="-17.7" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="-4.7" y="-18.4" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="-4.7" y="-19.1" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="0.5" y="-16.7" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="1.2" y="-16.7" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="0.4" y="-16.8" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="1" y="-17.1" extent="1-16" drill="0.3" diameter="0.6"/>
 <polygon width="0.2" layer="1">
 <vertex x="-5.25" y="-29"/>
 <vertex x="-5.25" y="-11.5"/>
@@ -896,13 +897,7 @@ package type OT</description>
 <via x="2.05" y="-21.2" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="2.7" y="-21.2" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="3.35" y="-21.2" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="-3.85" y="-21.6" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="-3.5" y="-24.5" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="-2.85" y="-24.5" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="-2.2" y="-24.5" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="2.2" y="-24.55" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="2.85" y="-24.55" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="3.5" y="-24.55" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="-4.35" y="-21.6" extent="1-16" drill="0.3" diameter="0.6"/>
 <contactref element="R3" pad="1"/>
 <via x="-4.7" y="-17" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="-4.7" y="-16.3" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -915,6 +910,8 @@ package type OT</description>
 <vertex x="10" y="0"/>
 <vertex x="10" y="-28"/>
 </polygon>
+<via x="-3.65" y="-21.6" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="-2.95" y="-21.6" extent="1-16" drill="0.3" diameter="0.6"/>
 </signal>
 <signal name="N$3">
 <contactref element="R2_" pad="2"/>
@@ -1030,10 +1027,10 @@ package type OT</description>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8000000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFC0C0C0"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
