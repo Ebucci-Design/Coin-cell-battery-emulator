@@ -3479,6 +3479,7 @@ package type OT</description>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="basic" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -3489,9 +3490,18 @@ package type OT</description>
 <part name="SW1" library="mechanical" library_urn="urn:adsk.eagle:library:31521365" deviceset="SPDT_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:32888981/2"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5L-LOC" device=""/>
 <part name="IC2" library="linear regulators" library_urn="urn:adsk.eagle:library:2541155" deviceset="RY6050-ADJM5R" device="" package3d_urn="urn:adsk.eagle:package:2541159/4"/>
-<part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="100K"/>
-<part name="R2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="24K"/>
-<part name="R2_" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="36K"/>
+<part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="100K">
+<attribute name="ALLOCATED" value="+"/>
+<attribute name="LCSC#" value="C25803"/>
+</part>
+<part name="R2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="24K">
+<attribute name="ALLOCATED" value="+"/>
+<attribute name="LCSC#" value="C23352"/>
+</part>
+<part name="R2_" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="36K">
+<attribute name="ALLOCATED" value="+"/>
+<attribute name="LCSC#" value="C23147"/>
+</part>
 <part name="GND1" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -3508,16 +3518,34 @@ package type OT</description>
 <attribute name="LCSC#" value="C96446"/>
 </part>
 <part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2" package3d_urn="urn:adsk.eagle:package:6503394/4"/>
+<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2" package3d_urn="urn:adsk.eagle:package:6503394/4">
+<variant name="basic" populate="no"/>
+</part>
 <part name="GND7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="R3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="24K"/>
-<part name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/4"/>
+<part name="R3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="2K">
+<attribute name="ALLOCATED" value="+"/>
+<attribute name="LCSC#" value="C22975"/>
+</part>
+<part name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/4">
+<attribute name="COLOR" value="Emerald"/>
+<attribute name="LCSC#" value="C72043"/>
+</part>
 <part name="GND8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="SJ1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="-SJ2" package3d_urn="urn:adsk.eagle:package:35137462/1"/>
-<part name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-3X1.5" package3d_urn="urn:adsk.eagle:package:4854322/2" value="PAD-3X1.5"/>
-<part name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE-0.6" package3d_urn="urn:adsk.eagle:package:6513718/2" value="PAD-HOLE-0.6"/>
-<part name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE-0.6" package3d_urn="urn:adsk.eagle:package:6513718/2" value="PAD-HOLE-0.6"/>
-<part name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE-0.6" package3d_urn="urn:adsk.eagle:package:6513718/2" value="PAD-HOLE-0.6"/>
+<part name="SJ1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="-SJ2" package3d_urn="urn:adsk.eagle:package:35137462/1">
+<variant name="basic" populate="no"/>
+</part>
+<part name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-3X1.5" package3d_urn="urn:adsk.eagle:package:4854322/2" value="PAD-3X1.5">
+<variant name="basic" populate="no"/>
+</part>
+<part name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE-0.6" package3d_urn="urn:adsk.eagle:package:6513718/2" value="PAD-HOLE-0.6">
+<variant name="basic" populate="no"/>
+</part>
+<part name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE-0.6" package3d_urn="urn:adsk.eagle:package:6513718/2" value="PAD-HOLE-0.6">
+<variant name="basic" populate="no"/>
+</part>
+<part name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE-0.6" package3d_urn="urn:adsk.eagle:package:6513718/2" value="PAD-HOLE-0.6">
+<variant name="basic" populate="no"/>
+</part>
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VBAT" device=""/>
 </parts>
 <sheets>
